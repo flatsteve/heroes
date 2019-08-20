@@ -55,6 +55,8 @@ export default class User {
       unsavedHeroes.forEach(hero => {
         hero.unsaved = false;
       });
+
+      this.deletedHeroIds = [];
     });
   }
 
